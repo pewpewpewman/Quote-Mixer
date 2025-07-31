@@ -1,5 +1,5 @@
 [package]
-name = "quote_mixer_dx"
+name = "quote_mixer"
 version = "0.1.0"
 edition = "2021"
 

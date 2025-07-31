@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "quote_mixer_dx"
+name = "quote_mixer"
 version = "0.1.0"
