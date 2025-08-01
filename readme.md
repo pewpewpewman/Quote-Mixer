@@ -14,10 +14,12 @@ Example:
 
 TODO:  
     1. Have the ability to return *all* possible transformations; two strings can have several different LCSs.  
-    2. Reorganize file structure to look like a proper Rust project (ie: not having everything just in main.rs). This would also make it more viable to use the quote mixer as a library.  
-    3. Add the ability to use files at inputs.  
+    2. Reorganize file structure to look like a proper Rust project (ie: not having everything just in main.rs). This would also make it more viable to use the quote mixer as a library. ✅  
+    3. Add the ability to use files at inputs. ✅  
     4. Optimize the program to remove similar beginnings and endings (ie: "AAABBBCCC" and "AAADDDCCC" only actually operates on "BBB" and "DDD").  
     5. Having this usable as an actual Discord bot would be pretty neat but I do not know how to do that and it would probably be unnecessary (see below), but if you want to go ahead.  
+    6. Add "buffering" to allow the mixing of very long strings  
+    7. After the above, make files use the buffered system
 
 Credits:  
     Code and what-not: Me  
